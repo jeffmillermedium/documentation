@@ -21,7 +21,8 @@ When present, it specifies that an input field must be filled out before submitt
 ```html
 <form action="https://submit-form.com/your-form-id">
   <input type="email" name="email" required />
-  <textarea name="message" required></textarea>
+  <input type="date" name="date" required />
+  <input type="time" name="time" required />
   <button type="submit">Send</button>
 </form>
 ```
